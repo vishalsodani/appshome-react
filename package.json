@@ -1,0 +1,33 @@
+{
+  "name": "appshome-react",
+  "version": "1.0.0",
+  "description": "React re-usable components and hooks.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode development",
+    "prepare": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gopalrohra/appshome-react.git"
+  },
+  "author": "Gopal Rohra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gopalrohra/appshome-react/issues"
+  },
+  "homepage": "https://github.com/gopalrohra/appshome-react#readme",
+  "peerDependencies": {
+    "react": "^16.9.0",
+    "react-bootstrap": "^1.0.0-beta.10"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7"
+  }
+}
