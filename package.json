@@ -2,10 +2,11 @@
   "name": "appshome-react",
   "version": "1.0.0",
   "description": "React re-usable components and hooks.",
-  "main": "index.js",
+  "main": "index.dist/main.js",
+  "files": ["dist/*"],
   "scripts": {
     "build": "webpack --mode development",
-    "prepareGitDep": "webpack --mode production"
+    "prepare": "webpack --mode production"
   },
   "repository": {
     "type": "git",
