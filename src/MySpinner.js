@@ -9,6 +9,5 @@ export default function MySpinner() {
                 </Spinner>
             </div>
         </div>
-
-    )
+    );
 }

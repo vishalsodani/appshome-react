@@ -19,16 +19,16 @@ export default function useSSO() {
                     setIsAuthenticating(false);
                 }
             );
-            console.log("Attached login listeners, going to check authentication status")
+            console.log("Attached login listeners, going to check authentication status");
             window.authSession.onReady(() => {
                 window.authSession.isAuthenticated();
             });
-            console.log("Requested the authentication status")
-        }
+            console.log("Requested the authentication status");
+        };
         document.body.appendChild(script);
         return () => {
             window.authSession.removeLoginListeners();
-        }
+        };
         }, [])   ;
         return [isAuthenticated, isAuthenticating];
 }
