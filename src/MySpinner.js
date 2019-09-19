@@ -1,6 +1,6 @@
 import React from 'react';
 import { Spinner } from 'react-bootstrap';
-export default function MySpinner() {
+export function MySpinner() {
     return (
         <div className="container vh-100">
             <div class="d-flex align-items-center justify-content-center h-100">
